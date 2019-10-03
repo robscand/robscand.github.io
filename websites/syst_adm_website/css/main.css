@@ -1,0 +1,201 @@
+body {
+	font-family: 'Ubuntu', 'Arial', sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+
+.main_image {
+	background: url("../img/pic2.jpg") no-repeat center top / cover;
+	padding-bottom: 160px;
+}
+
+.one_image {
+	background: url("../img/archpic1.jpg") no-repeat center top / cover;
+	padding-bottom: 160px;
+}
+
+.two_image {
+	background: url("../img/regpic2.jpg") no-repeat center top / cover;
+	padding-bottom: 160px;
+}
+
+.three_image {
+	background: url("../img/fsyspic1.jpg") no-repeat center top / cover;
+	padding-bottom: 160px;
+}
+
+.four_image {
+	background: url("../img/about.jpg") no-repeat center top / cover;
+	padding-bottom: 160px;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+.container{
+	width: 930px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 41px;	
+	float: left;
+}
+
+#menu ul {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	background-color: #666666;
+	text-align: center;
+}
+
+#menu ul li {
+	display: inline-block;
+	padding: 15px 0;
+	margin: 6 auto;
+	text-transform: uppercase;
+}
+
+#menu ul ul {
+	display: none;
+	position: absolute;
+	background-color: #666666;
+	margin-top: 10px;
+}
+
+#menu li:hover ul {
+	display: block;
+}
+
+#menu li li {
+	display: block;
+}
+
+#menu a {
+	color: #FFCC33;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: bold;
+    padding: 0 35px;
+}
+
+#menu a:hover {
+	background: #FFCC33;
+	color: #666666;
+	border-radius: 5px;
+}
+
+.first_title {
+	font-size: 40px;
+	color: #FFF;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #222222;
+	text-align: center;
+	margin-top: 160px;
+}
+
+.main_title {
+	font-size: 30px;
+	color: #FFCC33;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #222222;
+	text-align: center;
+	margin: 15px;
+}
+
+.title {
+	padding-top: 100px;	
+}
+
+.non_main_tit {
+	padding-top: 130px;	
+}
+
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.title p {
+	color: #999999;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+#osystem {
+	padding-bottom: 115px;
+}
+
+.osystem {
+	margin-top: 80px;
+}
+
+.os_item {
+	width: 100%;
+	text-align: justify;
+}
+
+.os_item li {
+	line-height: 1.55em;
+}
+
+.os_item h3 {
+	font-size: 18px;
+}
+
+.os_item p {
+	color: #333333;
+	font-size: 16px;
+	line-height: 1.55em;
+}
+
+.os_item figure {
+	text-align: center;
+}
+
+.os_item figcaption {
+	color: #999999;
+	line-height: 1.55em;
+}
+
+.picture img {
+	max-width: 100%;
+	height: auto;
+}
+
+#failsys {
+	background: #dadada;
+	padding-bottom: 115px;
+}
+
+#hdd {
+	padding-bottom: 115px;
+}
+
+#mgsu {
+	padding: 10px;
+	background-color: #dadada;
+	clear: both;
+	margin: auto;
+}
+
+.stl {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+

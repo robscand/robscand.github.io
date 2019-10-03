@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Курсовая работа</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="shortcut icon" href="img/ico.png" type="image/png">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
+</head>
+<body>
+	<header class="one_image">
+		<div class="container">
+			<div class="clearfix">
+				<img src="img/logo.png" alt="Golden" class="logo">
+			</div>
+			<div class="non_main_tit">
+				<h1 class="main_title">
+					Курсовой проект по системному администрированию
+				</h1>
+			</div>
+		</div>
+	</header>
+	<nav id="menu">
+	<ul>
+		<li>
+			<a href="index.html">Главная</a></li>
+		<li>
+			<a href="filesys.html" style = "padding: 0 10px 4px 10px">Файловые Менеджеры</a>
+			<ul>
+				<li><a href="total_commander.html">Total Commander</a></li>
+				<li><a href="file_commander.html">File Commander</a></li>
+				<li><a href="windows_explorer.html">Windows Explorer</a></li>
+			</ul> 	
+		</li>
+		<li>
+			<a href="archive.html" style = "padding: 0 18px 4px 18px">Архивация</a>
+			<ul>
+				<li><a href="quick_zip.html">QuickZip</a></li>
+				<li><a href="pea_zip.html">PeaZip</a></li>
+				<li><a href="iz_arc.html">IzArc</a></li>
+			</ul> 
+		</li>	
+		<li>
+			<a href="registry.html" style = "padding: 0 18px 4px 18px">Средства работы с реестром</a>
+			<ul>
+				<li><a href="reg_seeker.html">RegSeeker</a></li>
+				<li><a href="jv16.html">jv16 PowerTools</a></li>
+				<li><a href="winaso.html">WinASO Registry Optimizer</a></li>
+			</ul> 
+		</li>
+		<li><a href="about.html">Об авторе</a></li>
+	</ul>
+	</nav>
+	<section id="osystem">
+		<div class="container">
+			<div class="title">
+				<h2>
+					QuickZip
+				</h2>
+			</div>
+			<div class="osystem clearfix">
+				<div class="os_item">
+					<h3>Этот раздел предназначен для разбора работы программы QuickZip.</h3>
+					<p><b>QuickZip</b> — бесплатный файловый архиватор, работающий в среде Microsoft Windows. Поддерживает большое количество форматов сжатия и умеет работать с образами дисков. Программа разрабатывается с декабря 1999 года.</p>
+					<p>QuickZip полностью поддерживает форматы сжатия 7-ZIP, BZA, BZ2, CAB, GZ, LHA, LZH, RS, SQX, TAR, TGZ, UUE, Z, ZIP, а также следующие типы файлов на открытие и разархивирование: ACE, ARG, ARJ, ASD, B64, BEL, BIN, BQX, CAR, CPT, CZIP, DZ, FRZ, HOG, IMP, IMG, ISO, GCA, JAM, PAK, PIT, QZE, RAR, RPM, SH, SPL, TAZ, WAD, XXE, ZAC, ZOO. (Wikipedia)</p>
+					<p>После запуска приложения первое, что бросается в глаза – интерфейс проводника Windows. Что говорит в пользу удобной навигации в данной программе.</p>
+					<figure class="picture">
+						<img src="img/qk/qk1.jpg" alt="Интерфейс программы QuickZip">
+						<figcaption>Рис.1. Интерфейс программы QuickZip</figcaption>
+					</figure>
+					<p>Главное меню опущено ниже адресной строки и динамически изменяется в зависимости от того, выбран файл, либо архив. После выделения файлов в панели меню появляется вкладка Archive Operations, которая позволяет добавить файлы в архив 7Z или Zip.</p>
+					<figure class="picture">
+						<img src="img/qk/qk2.jpg" alt="Добавление в архив">
+						<figcaption>Рис.2. Добавление в архив</figcaption>
+					</figure>
+					<p>При выполнении архивации появляется единственное окно с процессом выполнения и кнопкой отмены.</p>
+					<figure class="picture">
+						<img src="img/qk/qk3.jpg" alt="Окно прогресса архивации">
+						<figcaption>Рис.3. Окно прогресса архивации</figcaption>
+					</figure>
+					<p>Окно настроек имеет 4 вкладки, которые позволяют  установить автоматическое обновление приложения, настроить масштаб отображения файлов, очистить логи операций. Также можно настроить перевод с помощью XML файлов, которые необходимо докачивать с официального сайта разработчика.</p>
+					<figure class="picture">
+						<img src="img/qk/qk4.jpg" alt="Окно настроек программы">
+						<figcaption>Рис.4. Окно настроек программы</figcaption>
+					</figure>
+					<p>Возможно подключение приложений, которые позволят воспроизводить, читать, файлы прямо в архиваторе. В самом архиваторе встроен мультимедийный проигрыватель.</p>
+					<figure class="picture">
+						<img src="img/qk/qk5.jpg" alt="Работа с проигрывателем">
+						<figcaption>Рис.5. Работа с проигрывателем</figcaption>
+					</figure>
+					<p>Правда отсутствует возможность управления воспроизведением. Остановить воспроизведение можно, нажав указателем мыши в поле программы.</p>
+					<p>Нажав правым указателем мыши по созданному в программе архиву, выделив его, либо же открыв прямо в программе можно извлечь данный архив с помощью опций Extact, Extract to и Checkout – осуществление извлечения файлов из нескольких архивов в одну временную папку, Test- осуществление проверки целостности архивов, который не выводит никакого окна с ошибками, либо с успешным завершением проверки.</p>
+					<figure class="picture">
+						<img src="img/qk/qk6.jpg" alt="Работа с архивом">
+						<figcaption>Рис.6. Работа с архивом</figcaption>
+					</figure>
+					<p>В нижней части экрана выводятся логи выполнения операций над архивами, из них можно вызвать выпадающее меню с командами открытия архива, удаления из лога, либо повтора операции архивирования.</p>
+					<figure class="picture">
+						<img src="img/qk/qk8.jpg" alt="Журнал архиватора">
+						<figcaption>Рис.7. Журнал архиватора</figcaption>
+					</figure>
+				</div>
+				<div class="os_item">
+					<h3>Заключение</h3>
+					<p><b>Плюсы архиватора QuickZip:</b></p>
+					<ul>
+						<li>Все плюсы проводника Windows. Программу можно использовать как файловый менеджер;</li>
+						<li>Понятный знакомый интерфейс.</li>
+					</ul>
+					<p><b>Минусы:</b></p>
+					<ul>
+						<li>Архиватор работает очень медленно, при проведении команды Test над двумя архивами с 5 и 2 файлами, кажется, прошла целая вечность;</li>
+						<li>Практически отсутствуют какие-либо существенные настройки вроде степени сжатия, разбития на отдельные тома и т.д;</li>
+						<li>Недоработанность программы: ощущение, будто функционал программы был намеренно урезан, недоработка с переводом на другие языки, отсутствие контекстного меню без включенного приложения.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="mgsu">
+		<div class="container">
+			<p class="stl">© 2017 | ниу мгсу</p>
+		</div>
+	</footer>
+</body>
+</html>
